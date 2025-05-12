@@ -1,11 +1,5 @@
 ### Creating a Simform-like Website
 
-I'll create a modern tech consultancy website similar to Simform with a sleek design, purple gradient backgrounds, and a professional layout.
-
-```typescriptreact project="tech-consultancy"
-...
-```
-
 ## Features Implemented
 
 1. **Modern Design with Purple Gradients**: Created a sleek design with purple gradients similar to Simform's website.
