@@ -1,4 +1,4 @@
-# Open Deep Research: A Comprehensive Overview of LangChain's Research Assistant
+# Open Deep Research
 
 Open Deep Research is an experimental, fully OpenAI research assistant developed by LangChain that automates in-depth research and generates comprehensive reports on any topic. This versatile tool represents a significant advancement in AI-powered research capabilities, allowing users to obtain detailed, well-cited analyses with minimal manual effort.
 
