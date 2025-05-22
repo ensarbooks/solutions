@@ -5,6 +5,7 @@
       "shortDescription":"An OpenAI research assistant for generating in-depth reports using workflows or multi-agent architectures.",
       "longDescription":"Open Deep Research is an experimental, fully OpenAI research assistant that automates deep research and produces comprehensive reports on any topic. It offers two implementations—a structured workflow and a multi-agent system—each with unique strengths. Users can customize models, prompts, report structure, and search tools to fit their needs.",
       "slug":"open-deep-research",
+      "category": "AI-Powered Research Assistant",
       "benefits":[
          "Automates deep research and report generation",
          "OpenAI, Claud and fully customizable",
@@ -64,6 +65,7 @@
       "shortDescription":"A fully local web research assistant powered by Ollama or LMStudio-hosted LLMs that generates markdown reports with iterative search and summarization.",
       "longDescription":"Local Deep Researcher is a fully local web research assistant that uses any LLM hosted by Ollama or LMStudio. It takes a topic and automatically generates a search query, retrieves web results, summarizes them, reflects on knowledge gaps, and refines the search over multiple cycles. The final result is a markdown report with citations, all generated locally and without requiring cloud-based LLM access.",
       "slug":"ollama-deep-research",
+      "category": "AI-Powered Research Assistant",
       "benefits":[
          "Fully local research workflow—no cloud dependency",
          "Customizable via environment variables and LangGraph Studio",
@@ -123,6 +125,7 @@
       "shortDescription":"A multi-agent web platform that generates comprehensive company research reports using AI pipelines and real-time WebSocket updates.",
       "longDescription":"Agentic Company Researcher is a web-based platform that generates in-depth company research reports using a multi-agent pipeline. It combines data from various online sources, filters it using AI relevance scoring, and synthesizes it into a clean, downloadable markdown report. The tool features real-time progress updates via WebSocket, a modern React frontend, and a dual-model architecture leveraging both Gemini 2.0 Flash and GPT-4.1 for optimal content generation and formatting.",
       "slug":"agentic-company-researcher",
+      "category":"AI-Powered Research Assistant",
       "benefits":[
          "Automatically generates detailed research reports on any company",
          "Real-time report generation with visual streaming of progress",
@@ -186,6 +189,7 @@
       "shortDescription":"An AI-powered real estate assistant that searches properties across multiple sites and offers investment insights using Firecrawl and GPT.",
       "longDescription":"The AI Real Estate Agent automates property search and market analysis using Firecrawl's Extract endpoint and GPT-based AI insights. It helps users find properties that match their criteria, while also providing detailed analysis on price trends, rental yields, and investment opportunities. The tool aggregates listings from multiple real estate platforms and presents results through a clean, interactive Streamlit interface.",
       "slug":"ai-real-estate-agent",
+      "category": "AI-Powered Research Assistant",
       "benefits":[
          "Find properties across multiple real estate platforms from a single interface",
          "Get detailed property and location-level analysis with investment recommendations",
@@ -249,6 +253,7 @@
       "shortDescription":"A unified platform combining intelligent web crawling, document chunking, embedding, indexing, and semantic search to transform unstructured content into searchable knowledge.",
       "longDescription":"Ensar Web & Search is an end-to-end intelligent document and crawl platform that crawls websites, extracts and chunks text, generates OpenAI-compatible vector embeddings, and indexes them using DuckDB with high-performance vector similarity search (HNSW). It supports real-time job management, semantic search, tagging, fuzzy filtering, and document APIs via FastAPI. Designed for building knowledge bases from internal or external web content, it enables organizations to search by meaning, not just keywords.",
       "slug":"web-intelligent-platform",
+      "category":"AI-Powered Document Search",
       "benefits":[
          "Fully automated web crawling and ingestion pipeline",
          "Chunked semantic indexing using OpenAI embeddings",
