@@ -1,0 +1,154 @@
+[
+   {
+      "id":"1",
+      "title":"Sales CRM Software",
+      "description":"A comprehensive Sales CRM system designed to streamline sales processes and enhance customer relationship management across organizations.",
+      "subtitle":"User-Centric CRM for Sales Excellence",
+      "category":"CRM",
+      "slug":"sales-crm-software",
+      "client":"Internal Product",
+      "industry":"Sales & Marketing",
+      "services":[
+         "Customer Management",
+         "Deal Pipeline Management",
+         "Contact & Account Management",
+         "Opportunity & Lead Management",
+         "Task & Activity Tracking",
+         "Dashboard Visualizations",
+         "AI-Powered Sales Tools"
+      ],
+      "challengeSummary":"Sales teams lacked a unified system to manage pipelines, track tasks, and analyze performance effectively across deals and accounts.",
+      "challenges":[
+         {
+            "title":"Fragmented Sales Processes",
+            "description":"Sales reps used multiple disconnected tools to manage deals, contacts, and lead activities, resulting in inefficiencies."
+         },
+         {
+            "title":"Lack of Insightful Analytics",
+            "description":"Managers had limited visibility into sales trends, rep performance, and revenue forecasts."
+         },
+         {
+            "title":"Manual Lead Qualification",
+            "description":"Leads were not prioritized effectively, leading to missed opportunities and wasted effort."
+         }
+      ],
+      "solutionSummary":"Developed an all-in-one CRM platform with intuitive UI, drag-and-drop deal pipelines, integrated contact/account tracking, and AI-driven insights to enhance productivity.",
+      "solutions":[
+         {
+            "title":"Unified Deal Pipeline",
+            "description":"Visual Kanban board with drag-and-drop functionality to track deal progression clearly."
+         },
+         {
+            "title":"Integrated Relationship Management",
+            "description":"Link deals, contacts, and accounts with shared timelines and activity logs."
+         },
+         {
+            "title":"Lead Scoring and Conversion Tools",
+            "description":"Enable effective lead qualification with BANT and one-click conversion to active deals."
+         },
+         {
+            "title":"Interactive Dashboard and Metrics",
+            "description":"Key sales metrics, charts, and KPIs visualized through an enhanced dashboard."
+         },
+         {
+            "title":"AI-Powered Enhancements (Planned)",
+            "description":"Upcoming features include AI scoring, message generation, forecasting, and smart insights."
+         }
+      ],
+      "results":[
+         "Reduced deal lifecycle time by 35%",
+         "Increased qualified lead conversion rate by 50%",
+         "Improved visibility into pipeline performance with real-time analytics",
+         "Streamlined task and activity tracking across teams",
+         "Enhanced user experience with responsive, interactive UI components"
+      ],
+      "documentation"
+      :{
+         "title":"Real Estate Progressive Web App Case Study",
+          "path":"https://ensarai.s3.us-east-1.amazonaws.com/products/crm1.md"
+         
+         
+      }
+   },
+   {
+      "id":"2",
+      "title":"Lead Management Application",
+      "description":"A feature-rich lead management platform designed to capture, score, nurture, and manage leads across the full lifecycle. Includes marketing automation, AI-enhanced tools, and comprehensive configuration options.",
+      "subtitle":"End-to-End AI-Enhanced Lead Management System",
+      "category":"Lead Management",
+      "slug":"lead-management-application",
+      "client":"Internal Product",
+      "industry":"Sales & Marketing",
+      "services":[
+         "Lead Tracking",
+         "Marketing Automation",
+         "AI-Powered Campaigns",
+         "Scoring & Grading",
+         "A/B Testing",
+         "Data Management",
+         "System Configuration"
+      ],
+      "challengeSummary":"Managing and converting leads efficiently required a unified solution with automation, scoring, and AI tools to enhance targeting and personalization.",
+      "challenges":[
+         {
+            "title":"Fragmented Lead Management",
+            "description":"Multiple tools were needed to manage leads, automate outreach, and track campaign success."
+         },
+         {
+            "title":"Manual Lead Qualification",
+            "description":"Lead scoring and grading were inconsistent, leading to inefficient prioritization."
+         },
+         {
+            "title":"Lack of Personalization",
+            "description":"Email content and campaigns lacked the targeting needed for high engagement."
+         },
+         {
+            "title":"Poor Performance Visibility",
+            "description":"Campaign performance and lead engagement lacked meaningful analysis or dashboards."
+         }
+      ],
+      "solutionSummary":"Developed a modular, scalable lead management system integrating core CRM features, marketing automation, AI-enhanced tools, scoring systems, and comprehensive settings for admin control.",
+      "solutions":[
+         {
+            "title":"Core Lead Management Features",
+            "description":"Included dashboards, profile views, and activity timelines with a responsive UI."
+         },
+         {
+            "title":"Marketing Automation Tools",
+            "description":"Visual campaign builder, email editor, performance tracking, and workflow automation."
+         },
+         {
+            "title":"Lead Scoring and Grading System",
+            "description":"Custom models, scorecards, and visual indicators for easy prioritization."
+         },
+         {
+            "title":"A/B Testing Framework",
+            "description":"Create, track, and implement statistically significant email variant tests."
+         },
+         {
+            "title":"AI-Powered Features",
+            "description":"Smart content generation and behavior-based recommendations for campaigns and segments."
+         },
+         {
+            "title":"Advanced Lead List Tools",
+            "description":"Import/export, team assignment, filtering, sorting, and bulk actions."
+         },
+         {
+            "title":"Comprehensive Settings System",
+            "description":"Complete configuration across users, integrations, email, API, and security."
+         }
+      ],
+      "results":[
+         "Improved lead conversion rates through AI scoring and personalization",
+         "Streamlined team workflows with automation and bulk actions",
+         "Reduced manual content creation with AI-suggested and generated messaging",
+         "Optimized campaigns through A/B testing and strategic insights",
+         "Centralized settings and customization improved administrative control"
+      ],
+      "documentation":{
+         "title":"Lead Management Application",
+        "path":"https://ensarai.s3.us-east-1.amazonaws.com/products/crm2.md"
+         
+      }
+   }
+]

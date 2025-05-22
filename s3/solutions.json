@@ -1,0 +1,329 @@
+[
+   {
+      "id":"1",
+      "title":"Deep Research",
+      "shortDescription":"An OpenAI research assistant for generating in-depth reports using workflows or multi-agent architectures.",
+      "longDescription":"Open Deep Research is an experimental, fully OpenAI research assistant that automates deep research and produces comprehensive reports on any topic. It offers two implementations—a structured workflow and a multi-agent system—each with unique strengths. Users can customize models, prompts, report structure, and search tools to fit their needs.",
+      "slug":"open-deep-research",
+      "benefits":[
+         "Automates deep research and report generation",
+         "OpenAI, Claud and fully customizable",
+         "Supports both workflow and multi-agent execution",
+         "Compatible with various search APIs and LLMs",
+         "Interactive UI and local/hosted deployment options"
+      ],
+      "features":[
+         {
+            "title":"Graph-based Workflow Implementation",
+            "description":"Follows a structured plan-and-execute process with human-in-the-loop, section-specific research, and customizable parameters for planning and writing."
+         },
+         {
+            "title":"Multi-agent Research System",
+            "description":"Uses a supervisor-researcher architecture where each agent handles a report section in parallel, boosting efficiency and speed."
+         },
+         {
+            "title":"Flexible Search API Integration",
+            "description":"Integrates with APIs like Tavily, Perplexity, Exa, ArXiv, PubMed, Linkup, and DuckDuckGo for high-quality web and academic search."
+         },
+         {
+            "title":"Model Agnostic Design",
+            "description":"Supports a wide range of LLMs via the init_chat_model() API, including OpenAI, Anthropic, and OSS models like Groq's LLaMA 3."
+         },
+         {
+            "title":"Customizable Parameters",
+            "description":"Users can tweak report structure, search depth, number of queries, and specific model behavior to control output quality."
+         }
+      ],
+      "useCases":[
+         {
+            "title":"Academic Research",
+            "description":"Generate comprehensive literature reviews and academic-style reports with citations using ArXiv and PubMed integrations."
+         },
+         {
+            "title":"Business and Market Analysis",
+            "description":"Conduct thorough market research reports using web search APIs like Tavily and Exa, tailored to industry-specific needs."
+         },
+         {
+            "title":"Internal Knowledge Base Generation",
+            "description":"Automate the production of internal documentation or reports using structured research flows across various domains."
+         },
+         {
+            "title":"Rapid Prototyping of Research Workflows",
+            "description":"Quickly iterate and test new research assistant workflows with LangGraph server, custom prompt flows, and multi-agent orchestration."
+         }
+      ],
+      "documentation":{
+         "title":"Deep Research",
+         "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/openai_deep_research.md"
+        
+      }
+   },
+   {
+      "id":"2",
+      "title":"Local Deep Researcher",
+      "shortDescription":"A fully local web research assistant powered by Ollama or LMStudio-hosted LLMs that generates markdown reports with iterative search and summarization.",
+      "longDescription":"Local Deep Researcher is a fully local web research assistant that uses any LLM hosted by Ollama or LMStudio. It takes a topic and automatically generates a search query, retrieves web results, summarizes them, reflects on knowledge gaps, and refines the search over multiple cycles. The final result is a markdown report with citations, all generated locally and without requiring cloud-based LLM access.",
+      "slug":"ollama-deep-research",
+      "benefits":[
+         "Fully local research workflow—no cloud dependency",
+         "Customizable via environment variables and LangGraph Studio",
+         "Supports Ollama and LMStudio-hosted models",
+         "Iterative search and summarization for deeper insights",
+         "Markdown report with source citations and knowledge tracking"
+      ],
+      "features":[
+         {
+            "title":"Local LLM Integration",
+            "description":"Seamlessly integrates with local models hosted by Ollama or LMStudio, with configurable endpoints and model names."
+         },
+         {
+            "title":"Iterative Web Research",
+            "description":"Performs a loop of search, summarization, reflection, and refined search to build a comprehensive understanding."
+         },
+         {
+            "title":"Search Tool Flexibility",
+            "description":"Supports DuckDuckGo, SearXNG, Tavily, and Perplexity, with optional API key configuration."
+         },
+         {
+            "title":"Markdown Output with Citations",
+            "description":"Generates a final report in markdown format with citations to all referenced sources."
+         },
+         {
+            "title":"LangGraph Studio UI",
+            "description":"Includes a UI for configuring and visualizing the research flow, with environment variable and runtime controls."
+         }
+      ],
+      "useCases":[
+         {
+            "title":"Offline or Privacy-Sensitive Research",
+            "description":"Ideal for users who require fully local processing due to privacy, confidentiality, or offline constraints."
+         },
+         {
+            "title":"Technical Documentation and Summarization",
+            "description":"Automatically generates research summaries for complex topics with citations from trusted sources."
+         },
+         {
+            "title":"Academic and Scientific Exploration",
+            "description":"Useful for exploring scholarly topics using DuckDuckGo or Perplexity, backed by customizable LLMs."
+         },
+         {
+            "title":"Developer Experimentation with LLM Workflows",
+            "description":"Provides a hands-on example of orchestrating LLMs in a structured loop for iterative knowledge building."
+         }
+      ],
+      "documentation":{
+         "title":"Local Deep Researcher",
+         "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/local_deep_research.md"
+        
+      }
+   },
+   {
+      "id":"3",
+      "title":"Agentic Company Researcher",
+      "shortDescription":"A multi-agent web platform that generates comprehensive company research reports using AI pipelines and real-time WebSocket updates.",
+      "longDescription":"Agentic Company Researcher is a web-based platform that generates in-depth company research reports using a multi-agent pipeline. It combines data from various online sources, filters it using AI relevance scoring, and synthesizes it into a clean, downloadable markdown report. The tool features real-time progress updates via WebSocket, a modern React frontend, and a dual-model architecture leveraging both Gemini 2.0 Flash and GPT-4.1 for optimal content generation and formatting.",
+      "slug":"agentic-company-researcher",
+      "benefits":[
+         "Automatically generates detailed research reports on any company",
+         "Real-time report generation with visual streaming of progress",
+         "Dual-model architecture for scalable synthesis and precise formatting",
+         "Modular backend with agentic architecture for flexibility and extensibility",
+         "Open-source and deployable locally or on cloud infrastructure"
+      ],
+      "features":[
+         {
+            "title":"Multi-Source Research",
+            "description":"Gathers data from company websites, financial documents, news sources, and industry analyses using automated pipelines."
+         },
+         {
+            "title":"AI-Powered Content Filtering",
+            "description":"Implements Tavily's relevance scoring to curate and prioritize high-quality content for summarization."
+         },
+         {
+            "title":"Dual Model Architecture",
+            "description":"Uses Gemini 2.0 Flash for high-context summarization and GPT-4.1-mini for markdown formatting and final report editing."
+         },
+         {
+            "title":"Real-Time WebSocket Communication",
+            "description":"Streams progress updates such as curation, briefing generation, and report streaming to the React frontend."
+         },
+         {
+            "title":"Modular Agent Pipeline",
+            "description":"Follows a structured research pipeline using agents like CompanyAnalyzer, FinancialAnalyst, NewsScanner, and more."
+         },
+         {
+            "title":"Modern React Frontend",
+            "description":"Responsive UI that displays live updates, lets users download reports, and interact with agent-generated outputs."
+         }
+      ],
+      "useCases":[
+         {
+            "title":"Investor Research",
+            "description":"Quickly generate detailed financial and market analysis on potential investment targets with synthesized reports."
+         },
+         {
+            "title":"Competitive Intelligence",
+            "description":"Track market positioning, news coverage, and financial performance of competitors across industries."
+         },
+         {
+            "title":"Startup Discovery",
+            "description":"Use the platform to analyze new and emerging startups based on public data and market trends."
+         },
+         {
+            "title":"Business Development",
+            "description":"Equip sales or strategy teams with automated background briefs before client outreach or meetings."
+         }
+      ],
+      "documentation":{
+         "title":"Agentic Company Researcher",
+         "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/agentic_company_researcher.md"
+        
+      }
+   },
+   {
+      "id":"4",
+      "title":"AI Real Estate Agent",
+      "shortDescription":"An AI-powered real estate assistant that searches properties across multiple sites and offers investment insights using Firecrawl and GPT.",
+      "longDescription":"The AI Real Estate Agent automates property search and market analysis using Firecrawl's Extract endpoint and GPT-based AI insights. It helps users find properties that match their criteria, while also providing detailed analysis on price trends, rental yields, and investment opportunities. The tool aggregates listings from multiple real estate platforms and presents results through a clean, interactive Streamlit interface.",
+      "slug":"ai-real-estate-agent",
+      "benefits":[
+         "Find properties across multiple real estate platforms from a single interface",
+         "Get detailed property and location-level analysis with investment recommendations",
+         "Save time by automating and customizing your property search process",
+         "Secure and session-based API key handling for ease of use",
+         "Open-source and easily deployable with Streamlit"
+      ],
+      "features":[
+         {
+            "title":"Smart Property Search",
+            "description":"Uses Firecrawl's Extract endpoint to retrieve listings from multiple real estate platforms based on user-defined criteria."
+         },
+         {
+            "title":"Multi-Source Integration",
+            "description":"Aggregates data from 99acres, Housing.com, Square Yards, Nobroker, and MagicBricks to ensure broad coverage."
+         },
+         {
+            "title":"Location Analysis",
+            "description":"Provides local price trends, rental yield metrics, and investment potential insights to aid decision-making."
+         },
+         {
+            "title":"AI-Powered Recommendations",
+            "description":"Uses GPT models to analyze properties and generate structured, intelligent suggestions."
+         },
+         {
+            "title":"Customizable Search",
+            "description":"Users can filter search by city, property type (Flat/Individual House), category (Residential/Commercial), and budget."
+         },
+         {
+            "title":"User-Friendly Interface",
+            "description":"Built with Streamlit to offer an intuitive and interactive UI for setting criteria and exploring results."
+         }
+      ],
+      "useCases":[
+         {
+            "title":"Real Estate Investment Research",
+            "description":"Use AI to explore top-performing areas and make informed investment decisions with data-backed recommendations."
+         },
+         {
+            "title":"Home Buying Assistant",
+            "description":"Helps individual buyers search for homes that match their criteria and offers AI-generated summaries for quick decision-making."
+         },
+         {
+            "title":"Real Estate Agent Tooling",
+            "description":"Agents can use it to speed up client property searches, with aggregated data and summarized insights."
+         },
+         {
+            "title":"Rental Yield Analysis",
+            "description":"Evaluate rental potential and long-term returns in selected locations with automated yield and trend analysis."
+         }
+      ],
+      "documentation":{
+         "title":"AI Real Estate Agent",
+         "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/real_estate.md"
+        
+      }
+   },
+   {
+      "id":"5",
+      "title":"Intelligent Document Ingestion, Crawling & Semantic Search",
+      "shortDescription":"A unified platform combining intelligent web crawling, document chunking, embedding, indexing, and semantic search to transform unstructured content into searchable knowledge.",
+      "longDescription":"Ensar Web & Search is an end-to-end intelligent document and crawl platform that crawls websites, extracts and chunks text, generates OpenAI-compatible vector embeddings, and indexes them using DuckDB with high-performance vector similarity search (HNSW). It supports real-time job management, semantic search, tagging, fuzzy filtering, and document APIs via FastAPI. Designed for building knowledge bases from internal or external web content, it enables organizations to search by meaning, not just keywords.",
+      "slug":"web-intelligent-platform",
+      "benefits":[
+         "Fully automated web crawling and ingestion pipeline",
+         "Chunked semantic indexing using OpenAI embeddings",
+         "Real-time semantic search over embedded content",
+         "Fuzzy tag search and full-text retrieval",
+         "Scalable, modular, and cloud-ready architecture",
+         "Monitor crawling and processing progress in real-time",
+         "Organize and categorize content with flexible tagging",
+         "Build searchable knowledge bases from web content",
+         "Find information based on meaning, not just keywords"
+      ],
+      "features":[
+         {
+            "title":"Asynchronous Web Crawler",
+            "description":"Discover and extract content from websites using a breadth-first search strategy with crawl4ai. Filters non-essential content for high-quality markdown output."
+         },
+         {
+            "title":"Chunking Engine",
+            "description":"Uses LangChain text splitters to segment long-form content into semantically meaningful chunks with configurable overlap."
+         },
+         {
+            "title":"Semantic Vector Processing",
+            "description":"Transforms content into 1536-dimension vector embeddings using LiteLLM (OpenAI-compatible), enabling powerful semantic similarity comparisons."
+         },
+         {
+            "title":"Vector Indexing & Similarity Search",
+            "description":"Indexes vectors in DuckDB with HNSW (Hierarchical Navigable Small World) index for fast cosine similarity search."
+         },
+         {
+            "title":"Distributed Job Management",
+            "description":"Manages crawl and indexing tasks asynchronously using Redis Queue (RQ) with built-in job tracking, status updates, and fault tolerance."
+         },
+         {
+            "title":"Tag and Domain Filtering",
+            "description":"Supports both exact and fuzzy tag filtering using JSON-based filters and Levenshtein distance matching for flexible document discovery."
+         },
+         {
+            "title":"RESTful API with FastAPI",
+            "description":"Provides endpoints for document search, retrieval, tag listing, and job monitoring with pagination and structured responses."
+         }
+      ],
+      "useCases":[
+         {
+            "title":"Enterprise Knowledge Search",
+            "description":"Index internal wikis and documentation for employees to search semantically, reducing time spent navigating siloed resources."
+         },
+         {
+            "title":"Technical Documentation Search",
+            "description":"Index and unify product, API, and support documentation for fast developer access to relevant topics using semantic matching."
+         },
+         {
+            "title":"Compliance Document Management",
+            "description":"Crawl and semantically search legal and regulatory sites to build a compliance repository searchable by intent, not just keywords."
+         },
+         {
+            "title":"Research Knowledge Base",
+            "description":"Aggregate research papers, journals, and publications into a semantic knowledge system for concept-based academic exploration."
+         },
+         {
+            "title":"AI Agent Knowledge Base",
+            "description":"Feed AI agents with a dense vector-indexed corpus to enhance conversational understanding and domain-specific QA capabilities."
+         },
+         {
+            "title":"Educational Content Repository",
+            "description":"Crawl and index online learning materials to enable students and educators to discover educational content by topic and concept."
+         },
+         {
+            "title":"Competitive Intelligence",
+            "description":"Continuously crawl and index industry and competitor sites to build a semantic market intelligence dashboard."
+         }
+      ],
+      "documentation":{
+         "title":"Ensar Web Crawl & Search Platform",
+         "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/web_crawl.md"
+        
+      }
+   }
+]
