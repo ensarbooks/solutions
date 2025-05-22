@@ -325,5 +325,66 @@
          "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/web_crawl.md"
         
       }
-   }
+   },
+   {
+  "id": "6",
+  "title": "Natural Language to SQL Generator",
+  "shortDescription": "Convert plain English into SQL queries and run them securely against a MySQL database using FastAPI and LLMs.",
+  "longDescription": "This solution enables users to generate and execute SQL queries by simply entering natural language questions. Built with FastAPI, SQLAlchemy, and LangChain-integrated Ollama models (like DeepSeek or LLaMA), it dynamically introspects a MySQL schema and converts queries to SQL using prompt templates and a language model. It also executes those SQL queries securely and returns JSON-formatted results, making it ideal for data exploration apps, analytics dashboards, or internal tools.",
+  "slug": "natural-language-sql-generator",
+  "category": "AI-Powered Developer Tools",
+  "benefits": [
+    "Automates SQL generation from user-friendly natural language inputs",
+    "Supports real-time schema introspection from a MySQL database",
+    "Enables seamless execution and retrieval of query results",
+    "Uses LLMs like DeepSeek via Ollama for high-accuracy SQL translation",
+    "Exposes clean REST APIs for easy integration with frontend apps"
+  ],
+  "features": [
+    {
+      "title": "Natural Language to SQL Translation",
+      "description": "Converts user questions into SQL statements using LangChain prompt templates and an Ollama-hosted LLM."
+    },
+    {
+      "title": "Dynamic Schema Extraction",
+      "description": "Automatically extracts database schema from MySQL using SQLAlchemy's inspection tools."
+    },
+    {
+      "title": "SQL Execution API",
+      "description": "Runs raw SQL queries and returns results in JSON format through FastAPI endpoints."
+    },
+    {
+      "title": "CORS-Enabled API Server",
+      "description": "Supports cross-origin requests, enabling integration with any frontend."
+    },
+    {
+      "title": "Prompt Engineering for SQL-Only Output",
+      "description": "Uses a strict prompt template to ensure the language model returns only valid SQL syntax without explanations."
+    }
+  ],
+  "useCases": [
+    {
+      "title": "Internal BI Tooling",
+      "description": "Enable business teams to explore database insights using plain English instead of writing SQL."
+    },
+    {
+      "title": "AI-Powered Dashboards",
+      "description": "Integrate into a dashboard application to convert user questions into live queries on backend databases."
+    },
+    {
+      "title": "Data Exploration for Analysts",
+      "description": "Let analysts query data more freely without needing to know SQL syntax."
+    },
+    {
+      "title": "Frontend-Backend Prototyping",
+      "description": "Use this API as a backend engine to prototype data-driven applications quickly."
+    }
+  ],
+  "documentation": {
+    "title": "FastAPI + LangChain SQL Generator Docs",
+    "path":"https://ensarai.s3.us-east-1.amazonaws.com/ai/natural-language-sql-generator.md"
+    
+  }
+}
+
 ]
