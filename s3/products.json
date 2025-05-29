@@ -150,5 +150,78 @@
         "path":"https://ensarai.s3.us-east-1.amazonaws.com/products/crm2.md"
          
       }
-   }
+   },
+   {
+  "id": "3",
+  "title": "Comprehensive Stock Analysis Application",
+  "shortDescription": "A real-time stock analysis platform with AI insights, technical indicators, and portfolio tracking.",
+  "longDescription": "This application offers an all-in-one platform for real-time stock analysis, portfolio management, ETF tracking, and AI-driven insights. Users can explore technical indicators, evaluate financial health, receive AI recommendations, and make data-driven investment decisions. The system features a responsive UI, extensive charting, financial ratios, and natural language queries powered by GenAI.",
+  "slug": "stock-analysis-app",
+  "category": "Finance & Investment",
+  "benefits": [
+    "Real-time market data and visualization",
+    "In-depth portfolio and ETF management",
+    "Powerful technical analysis tools",
+    "AI-generated insights and sentiment analysis",
+    "Natural language interaction with stock data",
+    "Highly responsive and professional UI"
+  ],
+  "features": [
+    {
+      "title": "Dashboard Overview",
+      "description": "Displays real-time data for major indices such as S&P 500, Dow Jones, and NASDAQ with visual indicators."
+    },
+    {
+      "title": "Advanced Charting",
+      "description": "Interactive price charts with SMA, EMA, RSI, MACD, Bollinger Bands, and VWAP overlays."
+    },
+    {
+      "title": "Portfolio Management",
+      "description": "Track and visualize stock holdings, gains/losses, and allocation across sectors."
+    },
+    {
+      "title": "ETF Trading and Analysis",
+      "description": "Supports ETF data model, trading interface, performance metrics, and sector allocation charts."
+    },
+    {
+      "title": "AI Assistant (StockGPT)",
+      "description": "An interactive chat interface offering intelligent stock insights, trend analysis, and portfolio advice."
+    },
+    {
+      "title": "Comprehensive Fundamentals",
+      "description": "Includes over 40 financial metrics like PE ratio, ROE, EPS growth, and liquidity ratios for robust analysis."
+    },
+    {
+      "title": "Market Sentiment Analysis",
+      "description": "AI-based sentiment scoring system that classifies and explains market mood for specific stocks."
+    }
+  ],
+  "useCases": [
+    {
+      "title": "Retail Investor Research",
+      "description": "Empowers individuals to explore stocks using both technical and fundamental tools before investing."
+    },
+    {
+      "title": "Portfolio Review and Optimization",
+      "description": "Assists users in reviewing portfolio diversification and making AI-powered decisions to reduce risk."
+    },
+    {
+      "title": "ETF Strategy Development",
+      "description": "Analyze ETF holdings and performance to design long-term passive or sector-focused investment strategies."
+    },
+    {
+      "title": "AI-Assisted Stock Evaluation",
+      "description": "Enables users to ask natural language questions like 'Is AAPL overvalued?' and receive GenAI responses."
+    },
+    {
+      "title": "Technical Analysis Training",
+      "description": "Helps traders learn about and apply indicators such as RSI, MACD, and Bollinger Bands with real-time charts."
+    }
+  ],
+  "documentation": {
+    "title": "Stock Analysis App Docs",
+    "path":"https://ensarai.s3.us-east-1.amazonaws.com/products/stocks1.md"
+  }
+}
+
 ]
